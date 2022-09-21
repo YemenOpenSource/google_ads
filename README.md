@@ -1,2 +1,35 @@
 # google_ads
 An easy way to add all google ads to your flutter app.
+
+# 
+1)flutter pub add google_mobile_ads
+
+
+2)Update your Info.plist
+<key>GADApplicationIdentifier</key>
+<string>ca-app-pub-3940256099942544~1458002511</string>
+<key>SKAdNetworkItems</key>
+  <array>
+    <dict>
+      <key>SKAdNetworkIdentifier</key>
+      <string>cstr6suwn9.skadnetwork</string>
+    </dict>
+  </array>
+
+3)Add the AdMob App ID (identified in the AdMob UI) to the app's android/app/src/main/AndroidManifest.xml
+<manifest>
+    <application>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+    </application>
+</manifest>
+
+4)Add  id's of (rewardedID &&interstitialID && bannerID)in  ads.dart  inside if(kReleaseMode)
+
+5)to use banner just write  AdBanner()  inside any widget
+
+6)to use rewarded just write  AdReWarded.instance.createRewardedAd()  inside initState() method and  write AdReWarded.instance.dispose inside  dispose() method
+
+7)ro use interstitial just write AdInterstitial.instance.createInterstitialAd()  inside initState() method and  write AdInterstitial.instance.dispose inside  dispose() method

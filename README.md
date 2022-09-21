@@ -25,9 +25,7 @@ An easy way to add all google ads to your flutter app.
 ```
 <manifest>
     <application>
-<!-- 
-Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 
--->
+<!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
         android:name="com.google.android.gms.ads.APPLICATION_ID"
         android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>

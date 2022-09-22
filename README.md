@@ -20,12 +20,12 @@ An easy way to add all google ads to your flutter app.
   </array>
 ```
 
-3. Add the AdMob App ID (identified in the AdMob UI) to the app's `android/app/src/main/AndroidManifest.xml
+3. Add the AdMob App ID (identified in the AdMob UI) to the app's `android/app/src/main/AndroidManifest.xml`
 
 ```
 <manifest>
     <application>
-<!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+<!--  Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
         android:name="com.google.android.gms.ads.APPLICATION_ID"
         android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
@@ -39,4 +39,4 @@ An easy way to add all google ads to your flutter app.
 
 6) To use rewarded just write `AdReWarded.instance.createRewardedAd()` inside `initState()` method and write `AdReWarded.instance.dispose` inside `dispose()` method.
 
-7) To use interstitial just write AdInterstitial.instance.createInterstitialAd() inside initState() method and write AdInterstitial.instance.dispose inside dispose() method.
+7) To use interstitial just write `AdInterstitial.instance.createInterstitialAd()` inside `initState()` method and write `AdInterstitial.instance.dispose` inside `dispose()` method.

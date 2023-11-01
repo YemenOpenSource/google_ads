@@ -1,3 +1,5 @@
+[![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
+
 ![Google Ads](https://user-images.githubusercontent.com/83473041/191724895-7ed7f336-7c39-4d30-b76b-ac50322a3b0f.png)
 
 # Google Ads
